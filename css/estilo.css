@@ -1,0 +1,163 @@
+body {
+  background: linear-gradient(to top, #F9A805, white);
+
+}
+h1 {color: black ;
+  background-image: url(../imagenes/montana.png);
+  background-size: cover;
+  background-color: #F9A805;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 190px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-decoration: underline;
+  font-style: oblique;
+  display: block;
+}
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 95%;
+
+
+}
+h3 {
+  text-decoration: underline;
+  color: black;
+}
+
+nav {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 2px;
+  clear: both;
+}
+
+.recetas li {
+  display: inline-block;
+  text-align: center;
+  margin: 1% 1% 0 1%;
+  padding-bottom: 15%;
+
+}
+
+.recetas li :hover {
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  font-size: 100px;
+  color: green;
+}
+
+.wasap {
+  display:block;
+  width:100px;
+  height:100px;
+  position: fixed;
+  right:1px;
+  bottom:35%;
+}
+section {
+  float: left;
+  width: 60%;
+  margin-top: 13px;
+  overflow: hidden;
+
+}
+
+aside {
+  float: right;
+  width: 40%;
+  overflow: hidden;
+}
+
+.social a {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  padding: 0 0 5% 0;
+
+}
+
+
+
+footer {
+
+  clear: both;
+  display:flex;
+  height: 100%;
+  justify-content: center;
+  padding-top: 3%;
+
+}
+
+.video {
+  padding: 0 10%;
+  display: block;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+  margin: 1% 1% 0 1%;
+
+}
+
+
+
+.menu li :hover {
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  font-size: 100px;
+  color: green;
+}
+
+form label {
+  display: block;
+}
+
+
+form {
+  clear: both;
+  align-content: center;
+  text-align: center;
+
+}
+
+.lomito:hover{
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  border-radius: 50%
+}
+
+.face:hover{
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  height: 200px;
+  width: 200px;
+}
+
+.insta:hover{
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  height: 200px;
+  width: 200px;
+}
+
+.twitter:hover{
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  height: 200px;
+  width: 200px;
+}
